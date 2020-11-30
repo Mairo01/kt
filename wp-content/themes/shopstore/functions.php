@@ -48,3 +48,5 @@ require get_template_directory() . '/inc/customizer/customizer.php';
 * Implement Recommed plugins.
 */
 require_once get_template_directory() . '/inc/tgm/plugins.php';
+
+add_filter('jpeg_quality', function($arg){return 100;});
