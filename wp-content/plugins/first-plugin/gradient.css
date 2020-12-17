@@ -1,0 +1,38 @@
+#site-title a{
+    font-size: 1.25em;
+    font-weight: 900;
+    animation: gradient .4s linear infinite;
+}
+@keyframes gradient {
+    0%{
+        background: linear-gradient(to bottom,#8ad9e4,#6F92E1,
+        #6F92E1,#6F92E1,#6F92E1);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    25%{
+        background: linear-gradient(to bottom,#6F92E1,#8ad9e4,
+        #6F92E1,#6F92E1,#6F92E1);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    50%{
+        background: linear-gradient(to bottom,#6F92E1,#6F92E1,
+        #8ad9e4,#6F92E1,#6F92E1);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    75%{
+        background: linear-gradient(to bottom,#6F92E1,#6F92E1,
+        #6F92E1,#8ad9e4,#6F92E1);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    100%{
+        background: linear-gradient(to bottom,#6F92E1,#6F92E1,
+        #6F92E1,#6F92E1,#8ad9e4);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+
+}
