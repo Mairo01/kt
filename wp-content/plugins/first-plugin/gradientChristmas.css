@@ -1,7 +1,7 @@
 #site-title a{
     font-size: 1.25em;
     font-weight: 900;
-    animation: gradient .4s linear infinite;
+    animation: gradient .5s linear infinite;
 }
 @keyframes gradient {
     0%{
@@ -34,4 +34,7 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text; 
     }
+}
+.page-header{
+    background-color: red;
 }
