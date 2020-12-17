@@ -9,4 +9,4 @@
 **/
 
 ?>
-<link href="https://mairoplanken.ikt.khk.ee/wordpress/wp-content/plugins/first-plugin/gradient.css" rel='stylesheet' type='text/css'/>
+<link href="https://mairoplanken.ikt.khk.ee/wordpress/wp-content/plugins/first-plugin/gradientChristmas.css" rel='stylesheet' type='text/css'/>

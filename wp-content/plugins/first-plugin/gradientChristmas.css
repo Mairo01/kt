@@ -1,0 +1,37 @@
+#site-title a{
+    font-size: 1.25em;
+    font-weight: 900;
+    animation: gradient .4s linear infinite;
+}
+@keyframes gradient {
+    0%{
+        background: linear-gradient(to bottom,#EA4630,#BB2528,
+        #BB2528,#BB2528,#BB2528);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    25%{
+        background: linear-gradient(to bottom,#BB2528,#EA4630,
+        #BB2528,#BB2528,#BB2528);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    50%{
+        background: linear-gradient(to bottom,#BB2528,#BB2528,
+        #EA4630,#BB2528,#BB2528);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    75%{
+        background: linear-gradient(to bottom,#BB2528,#BB2528,
+        #BB2528,#EA4630,#BB2528);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+    100%{
+        background: linear-gradient(to bottom,#BB2528,#BB2528,
+        #BB2528,#BB2528,#EA4630);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text; 
+    }
+}
